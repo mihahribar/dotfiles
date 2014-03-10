@@ -1,0 +1,6 @@
+# for more see http://alias.sh
+alias ll='ls -al'
+alias sl=ls
+alias c=clear
+alias grep='grep --color=auto'
+alias netlisteners='lsof -i -P | grep LISTEN'
