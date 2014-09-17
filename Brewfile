@@ -16,11 +16,11 @@ install bash
 
 # Install more recent versions of some OS X tools
 install homebrew/dupes/grep
-install josegonzalez/homebrew-php/php55
 
 # Install other useful binaries
 install git
 install node
+install wget
 
 # Remove outdated versions from the cellar
 cleanup
