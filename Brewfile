@@ -16,11 +16,18 @@ install bash
 
 # Install more recent versions of some OS X tools
 install homebrew/dupes/grep
+install curl
+install ruby
 
 # Install other useful binaries
 install git
 install node
 install wget
+install maven
+
+# docker
+install docker
+install boot2docker
 
 # Remove outdated versions from the cellar
 cleanup

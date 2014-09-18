@@ -22,5 +22,5 @@ export MANPAGER="less -X"
 export GREP_OPTIONS="--color=auto"
 
 # java
-export JAVA_HOME=`/usr/libexec/java_home -v 1.6`
+export JAVA_HOME=`/usr/libexec/java_home`
 export JAVA_OPTS="$JAVA_OPTS -Xmx1024m -XX:MaxPermSize=256m"
