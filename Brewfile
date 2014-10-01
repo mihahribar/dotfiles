@@ -1,33 +1,33 @@
-# Make sure we’re using the latest Homebrew
-update
+# Update Homebrew, formulae, and packages
 
-# Upgrade any already-installed formulae
+update
 upgrade
 
-# Install GNU core utilities (those that come with OS X are outdated)
-# Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
-install coreutils
-# Install some other useful utilities like `sponge`
-install moreutils
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
-install findutils
-# Install Bash 4
-install bash
+# Install GNU core utilities
 
-# Install more recent versions of some OS X tools
+install coreutils
+install moreutils
+install findutils
+install bash
+install bash-completion
 install homebrew/dupes/grep
 install curl
 install ruby
-
-# Install other useful binaries
 install git
 install node
 install wget
 install maven
+install tree
 
-# docker
+# Docker
+
 install docker
 install boot2docker
 
+# Cask
+
+install caskroom/cask/brew-cask
+
 # Remove outdated versions from the cellar
+
 cleanup

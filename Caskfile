@@ -1,0 +1,9 @@
+# https://github.com/webpro/dotfiles/blob/master/install/install.osx.sh
+
+cask install alfred
+cask install dash
+cask install dropbox
+cask install google-chrome
+cask install sublime-text3
+cask install virtualbox
+cask install vlc
