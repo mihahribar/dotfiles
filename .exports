@@ -1,4 +1,4 @@
-# Make vim the default editor
+# Make sublime the default editor
 export EDITOR="subl -w"
 
 # Larger bash history (allow 32³ entries; default is 500)
@@ -23,4 +23,4 @@ export GREP_OPTIONS="--color=auto"
 
 # java
 export JAVA_HOME=`/usr/libexec/java_home`
-export JAVA_OPTS="$JAVA_OPTS -Xmx1024m -XX:MaxPermSize=256m"
+export JAVA_OPTS="$JAVA_OPTS -Xmx1024m -XX:MaxPermSize=256m -Dsurefire.useFile=false"

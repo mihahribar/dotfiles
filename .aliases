@@ -4,3 +4,12 @@ alias sl=ls
 alias c=clear
 alias grep='grep --color=auto'
 alias netlisteners='lsof -i -P | grep LISTEN'
+alias alpha='ssh helios-alpha.toshl.net'
+alias beta='ssh helios-beta.toshl.net'
+alias virgon='ssh virgon.toshl.net'
+alias tauron='ssh tauron.toshl.net'
+alias gemenon='ssh gemenon.toshl.net'
+alias as1='ssh as1.toshl.net'
+alias as2='ssh as2.toshl.net'
+alias db1='ssh db1.toshl.net'
+alias db2='ssh db2.toshl.net'

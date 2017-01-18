@@ -22,4 +22,3 @@ export SUDO_PS1="\[$bakred\]\u@\h\[$txtrst\] \w\$ "
 
 if [ -f ~/.git-completion.bash ]; then
     . ~/.git-completion.bash
-fi
